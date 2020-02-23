@@ -42,7 +42,7 @@ $N_j$ 是相邻像素。$\varphi(t)=\delta^{2}(|t / \delta|-\log (1+|t / \delta|
 
 每个 patch 的类的判断方法是：
 
-<img src="http://latex.codecogs.com/svg.latex? \arg \min_{1 \leq k \leq K}\left\|\boldsymbol{\Omega}_{k} \mathbf{P}_{j} \mathbf{x}-H_{\gamma}\left(\mathbf{\Omega}_{k} \mathbf{P}_{j} \mathbf{x}\right)\right\|_{2}^{2}+\gamma^{2}\left\|H_{\gamma}\left(\mathbf{\Omega}_{k} \mathbf{P}_{j} \mathbf{x}\right)\right\|_{0}" border="0"/>
+<img src="http://latex.codecogs.com/svg.latex? \arg \min_{1 \leq k \leq K}\left\|\mathbf{\Omega}_{k} \mathbf{P}_{j} \mathbf{x}-H_{\gamma}\left(\mathbf{\Omega}_{k} \mathbf{P}_{j} \mathbf{x}\right)\right\|_{2}^{2}+\gamma^{2}\left\|H_{\gamma}\left(\mathbf{\Omega}_{k} \mathbf{P}_{j} \mathbf{x}\right)\right\|_{0}" border="0"/>
 
 ### Bibtex:
 
