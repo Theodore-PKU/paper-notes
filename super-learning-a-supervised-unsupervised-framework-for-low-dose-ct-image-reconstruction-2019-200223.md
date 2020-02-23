@@ -47,6 +47,12 @@ $N_j$ 是相邻像素。$\varphi(t)=\delta^{2}(|t / \delta|-\log (1+|t / \delta|
 ### Bibtex:
 
 ```latex
-
+@inproceedings{li2019super,
+  title={SUPER Learning: A Supervised-Unsupervised Framework for Low-Dose CT Image Reconstruction},
+  author={Li, Zhipeng and Ye, Siqi and Long, Yong and Ravishankar, Saiprasad},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision Workshops},
+  pages={0--0},
+  year={2019}
+}
 ```
 
