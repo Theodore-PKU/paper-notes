@@ -26,7 +26,7 @@ Kai XU, Zhikang Zhang, Fengbo Ren
 
 <img src="https://raw.githubusercontent.com/Theodore-PKU/pictures/master/%E6%88%AA%E5%B1%8F2020-01-11%E4%B8%8B%E5%8D%882.27.41.png" width="50%"/>
 
-每一个 RAN 的结构如下：
+每一个 GAN 的结构如下：
 
 <img src="https://raw.githubusercontent.com/Theodore-PKU/pictures/master/%E6%88%AA%E5%B1%8F2020-01-11%E4%B8%8B%E5%8D%882.32.49.png"/>
 
