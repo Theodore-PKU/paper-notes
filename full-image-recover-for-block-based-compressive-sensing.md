@@ -16,7 +16,7 @@ Xuemei Xi, Chenye Wang, Jiang Du, Guangming Shi
 
 网络结构示意图：
 
-<img src="https://raw.githubusercontent.com/Theodore-PKU/pictures/master/%E6%88%AA%E5%B1%8F2020-01-02%E4%B8%8B%E5%8D%883.53.27.png" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/Theodore-PKU/pictures/master/20200304154832.png"/>
 
 ### Bibtex:
 
