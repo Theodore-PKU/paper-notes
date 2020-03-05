@@ -14,7 +14,7 @@ Ortal Senouf, Sanketh Vedula, Tomer Weiss, Alex Bronstein, Oleg Michailovich, an
 
 阅读时间：2020.01.30
 
-泛读。这篇文章研究的是 self-supervised learning 的重建方法，用的 fastMRI 的数据来测试。作者的想法和 DIP 非常类似，只不过是对很多数据来训练，而不是单张图片。另外和 DIP 略有区别的地方在于输入不是 random    vaiable，损失函数也不同，DIP 是对一个样本训练，这篇文章则是对多个样本训练。和有监督学习的区别在于某友 groundtruth 作为 label。总的来说，作者只使用了 measurement，在这篇文章，measurement 指的是欠采样情况下的 zero-fill 重建结果。这篇文章中，作者把 mri 的 cs 问题看成两种类型，一种是只选取低频的部分，所以是超分辨，一种是对高频也有采样，所以是 dealiasing，也可以有不同的采样率。
+泛读。这篇文章研究的是 self-supervised learning 的重建方法，用的 fastMRI 的数据来测试。作者的想法和 DIP 非常类似，只不过是对很多数据来训练，而不是单张图片。另外和 DIP 略有区别的地方在于输入不是 random    vaiable，损失函数也不同，DIP 是对一个样本训练，这篇文章则是对多个样本训练。和有监督学习的区别在于没有 groundtruth 作为 label。总的来说，作者只使用了 measurement，在这篇文章，measurement 指的是欠采样情况下的 zero-fill 重建结果。这篇文章中，作者把 mri 的 cs 问题看成两种类型，一种是只选取低频的部分，所以是超分辨，一种是对高频也有采样，所以是 dealiasing，也可以有不同的采样率。
 
 损失函数：
 
