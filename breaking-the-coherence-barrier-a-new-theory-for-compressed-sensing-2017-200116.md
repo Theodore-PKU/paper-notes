@@ -50,7 +50,7 @@ The purpose of this paper is to provide a bridge across this divide. It does so 
 
 **稀疏性，flip test 和 RIP**
 
-flip test 指的是如下的测试。令 $x\in\mathbb{C}^N, U\in\mathbb{C}^{N\times N}$，选择 $U$ 的某些哈那个，作为测量，求解优化问题：
+flip test 指的是如下的测试。令 $x\in\mathbb{C}^N, U\in\mathbb{C}^{N\times N}$，选择 $U$ 的某些行，作为测量，求解优化问题：
 
 <img src="http://latex.codecogs.com/svg.latex? \min _{z \in \mathbb{C}^{N}}\|z\|_{1} \text { subject to } P_{\Omega} U z=P_{\Omega} U x" border="0"/>
 
