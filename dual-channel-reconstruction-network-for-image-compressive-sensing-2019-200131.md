@@ -1,10 +1,10 @@
 ### Paper:
 
-
+Dual-Channel Reconstruction Network for Image Compressive Sensing
 
 ### Author:
 
-Dual-Channel Reconstruction Network for Image Compressive Sensing
+Zhongqiang Zhang, Dahua Gao, Xuemei Xie and Guangming Shi
 
 ### Year:
 
