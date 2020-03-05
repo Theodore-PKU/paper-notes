@@ -14,7 +14,7 @@ CHEN ZHAO, JIAN ZHANG, RONGGANG WANG, AND WEN GAO
 
 阅读日期：2020.02.12
 
-泛读。这篇文章研究的是 CS 重建，其实没有什么新鲜东西了。作者提出的方法概括起来就是把 ADMM 算法中的 proximal 算子用一个去噪 CNN 替换了。另外，因为作者在推到 ADMM 算法时用了和一般不一样的形式，所以迭代的计算有一点不同。因为是去噪 CNN，所以需要事先训练，但是不需要 fine-tuning，可以直接用。以及关于噪声水平的选择，作者的做法是先训练多个噪声水平下的 CNN，然后测试出哪一个噪声水平的 CNN 平均效果最好。CNN 的结构非常简单，卷积层叠加 + residual learining。作者考虑的是 block-based 算法，但是没有说明是否有 blocky artefact 的情况。
+泛读。这篇文章研究的是 CS 重建，其实没有什么新鲜东西了。作者提出的方法概括起来就是把 ADMM 算法中的 proximal 算子用一个去噪 CNN 替换了。另外，因为作者在推导 ADMM 算法时用了和一般不一样的形式，所以迭代的计算有一点不同。因为是去噪 CNN，所以需要事先训练，但是不需要 fine-tuning，可以直接用。以及关于噪声水平的选择，作者的做法是先训练多个噪声水平下的 CNN，然后测试出哪一个噪声水平的 CNN 平均效果最好。CNN 的结构非常简单，卷积层叠加 + residual learining。作者考虑的是 block-based 算法，但是没有说明是否有 blocky artefact 的情况。
 
 下面给出 ADMM 算法的推导：
 
