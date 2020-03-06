@@ -14,7 +14,7 @@ Jiaxi Wang, Li Zeng, Chengxiang Wang and Yumeng Guo
 
 阅读日期：2020.02.15
 
-泛读。这篇文章研究的是 limited-angle CT 的重建，使用的方法是 ADMM 算法，用一个 U-net 替换其中的 proximal 算子（也就是正则项那一步）。CNN 是事先训练好的，网络结构也没有创新。不过由于作者的目标函数中 data fidelity 的范数计算带了权重，所以 data fidelity 那一步的计算很难算最优值，因此用了一个小技巧（参见后面的算法图）。总的来说没有什么参考价值。
+泛读。这篇文章研究的是 limited-angle CT 的重建，使用的方法是 ADMM 算法，用一个 U-net 替换其中的 proximal 算子（也就是正则项那一步）。CNN 是事先训练好的（输入是 corrupted image），网络结构也没有创新。不过由于作者的目标函数中 data fidelity 的范数计算带了权重，所以 data fidelity 那一步的计算很难算最优值，因此用了一个小技巧（参见后面的算法图）。总的来说没有什么参考价值。
 
 <img src="http://latex.codecogs.com/svg.latex? \underset{f \geqslant 0}{\arg \min }\left\{\frac{1}{2}\|A f-g\|_{D}^{2}+\lambda_{1} R(f)\right\}" border="0"/>
 
