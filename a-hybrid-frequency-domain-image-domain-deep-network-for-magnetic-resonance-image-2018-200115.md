@@ -14,7 +14,7 @@ Roberto Souza, and Richard Frayne
 
 阅读日期：2020.01.15
 
-泛读。这篇文章研究的是MRI重建。作者的想法是将 kspace 域上的重建也考虑进来。作者发现之前的工作都是在图像域上处理，kspace 最多是用于 data fidelity 的约束。作者的框架也比较简单，用一个 residual U-Net 来重建 kspace，一个 U-net 来重建图像，两个网络用 IDFT 连接。kspace 用 2 通道表示复数，图像域上用 实数来处理，所以 IDFT 有一个模长运算。整体上可以把 kspace 网络当作是初步处理，图像网络当作是进一步重建。两个网络是串行的。
+泛读。这篇文章研究的是MRI重建。作者的想法是将 kspace 域上的重建也考虑进来。作者发现之前的工作都是在图像域上处理，kspace 最多是用于 data fidelity 的约束。作者的框架也比较简单，用一个 residual U-Net 来重建 kspace，一个 U-net 来重建图像，两个网络用 IDFT 连接。kspace 用 2 通道表示复数，图像域上用实数来处理，所以 IDFT 有一个模长运算。整体上可以把 kspace 网络当作是初步处理，图像网络当作是进一步重建。两个网络是串行的。
 
 网络结构：（注意，作者多次使用了 normalization，形如<img src="http://latex.codecogs.com/svg.latex? F_{u_{n o r m}}=\frac{F_{u}-\mu_{F_{u_{t r a i n}}}}{\sigma_{F_{u_{t r a i n}}}}" border="0"/>，标准差和均值都是用训练集的数据，而不是一张图像的，也有对应的 Inv normalization）
 
