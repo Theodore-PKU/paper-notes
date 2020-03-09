@@ -22,7 +22,7 @@ Chang Min Hyun, Hwa Pyung Kim, Sung Min Lee, Sungchul Lee, and Jin Keun Seo
 
 <img src="http://latex.codecogs.com/svg.latex? \boldsymbol{y}_{1} \neq \boldsymbol{y}_{2} \text { implies }\left|\mathcal{F}^{-1}\right| \circ \mathcal{P} \circ \mathcal{S} \circ \mathcal{F}\left(\boldsymbol{y}_{1}\right) \neq\left|\mathcal{F}^{-1}\right| \circ \mathcal{P} \circ \mathcal{P} \circ \mathcal{F}\left(\boldsymbol{y}_{2}\right)" border="0"/>
 
-也就是不同的图像，zero-fill 的结果应该不同。而对于 uniform 的采样方式则会出一些问题。下式是2-fold加速和 4-fold 加速，假设是平均间隔的采样，更具 Poisson summation formula，有下面的结果：
+也就是不同的图像，zero-fill 的结果应该不同。而对于 uniform 的采样方式则会出一些问题。下式是2-fold加速和 4-fold 加速，假设是平均间隔的采样，根据 Poisson summation formula，有下面的结果：
 
 <img src="http://latex.codecogs.com/svg.latex? y_{2-\text{fold }}(n, m)=y(n, m)+y(n, m+N / 2)" border="0"/>
 
