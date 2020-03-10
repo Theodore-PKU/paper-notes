@@ -14,7 +14,7 @@ Tieyuan Lu, Xinlin Zhang, Yihui Huang, Yonggui Yang, Gang Guo, Lijun Bao, Feng H
 
 阅读时间：2020.02.07
 
-泛读。这篇文章研究的是 parallel MRI 的重建，使用的方法是 unroll 一个传统算法。这个传统算法感觉和 single-coil 的差别不大，只是在 data fidelity 项有一些变动。在这篇文章中，sensitive matrix 应该是先估计好的。展开的网络结构分为四个部分，data consistency（没有什么特别的，普通的矩阵运算），两个卷积网络提到了原来传统算法中的稀疏变换，原来的 soft-thresholding 的阈值变成可变（可学习）。
+泛读。这篇文章研究的是 parallel MRI 的重建，使用的方法是 unroll 一个传统算法。这个传统算法感觉和 single-coil 的差别不大，只是在 data fidelity 项有一些变动。在这篇文章中，sensitive matrix 应该是先估计好的。展开的网络结构分为四个部分，data consistency（没有什么特别的，普通的矩阵运算），两个卷积网络替换了原来传统算法中的稀疏变换，原来的 soft-thresholding 的阈值变成可变（可学习）。
 
 <img src="http://latex.codecogs.com/svg.latex? \min _{\mathbf{x}} \lambda\|\mathbf{\Psi} \mathbf{x}\|_{1}+\frac{1}{2} \sum_{j=1}^{J}\left\|\mathbf{U} \mathbf{F} \mathbf{C}_{j} \mathbf{x}-\mathbf{y}_{j}\right\|_{2}^{2}" border="0"/>
 
