@@ -41,6 +41,13 @@ Yanxia Chen, Taohui Xiao, Cheng Li, Qiegen Liu, and Shanshan Wang
 ### Bibtex:
 
 ```latex
-
+@inproceedings{chen2019model,
+  title={Model-based Convolutional De-Aliasing Network Learning for Parallel MR Imaging},
+  author={Chen, Yanxia and Xiao, Taohui and Li, Cheng and Liu, Qiegen and Wang, Shanshan},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={30--38},
+  year={2019},
+  organization={Springer}
+}
 ```
 
