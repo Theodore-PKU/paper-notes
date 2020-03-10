@@ -52,8 +52,6 @@ GAN 的损失函数：
 
 ### Bibtex:
 
-### Bibtex:
-
 ```latex
 @inproceedings{liu2018image,
   title={Image reconstruction by splitting deep learning regularization from iterative inversion},
