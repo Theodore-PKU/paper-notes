@@ -16,6 +16,8 @@ Chaoping Zhang, Florian Dubost, Marleen de Bruijne, Stefan Klein, Dirk H.J. Poot
 
 首先说明一下作者定义的和采样位置有关的三个概念，sample，pattern，acs。sample 的部分包含 pattern 和 acs，pattern 是指欠采样的方式，acs 是中心的 full 采样的部分。
 
+<img src="https://raw.githubusercontent.com/Theodore-PKU/pictures/master/20200321223150.png"/>
+
 GRAPPA 算法估计的卷积核是用如下方式估计出来的：
 $$
 \hat{n}=\arg \min \left\|\left(S-n \circledast \left(S \circ M_{\text {pattern}}\right)\right) \circ M_{a c s}\right\|_{2}^{2}+\lambda\|I n\|_{2}^{2}
