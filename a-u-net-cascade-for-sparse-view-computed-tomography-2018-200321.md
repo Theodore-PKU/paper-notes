@@ -47,4 +47,5 @@ $$
 
 关于 CT 的 forward 和伪逆的计算参考这里的代码
 
-Jonas, A.: ODL - operator discretization library (2013). https://github.com/ odlgroup/odl
+Jonas, A.: ODL - operator discretization library (2013). https://github.com/odlgroup/odl
+
