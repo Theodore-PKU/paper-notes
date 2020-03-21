@@ -12,7 +12,7 @@ Chaoping Zhang, Florian Dubost, Marleen de Bruijne, Stefan Klein, Dirk H.J. Poot
 
 ### Notes:
 
-泛读。这篇文章研究的是并行 MRI 的重建。无监督的方法。无监督指的是在训练的损失函数上只考虑 sample 的部分。这篇文章用的网络目的是将未采样的 kspace 进行填补。所以类似于 GRAPPA 或者 RAKI。网络的输入是 pattern 部分的 kspace，输出是 full kspace，损失函数比较的是 sample 部分的误差。采样部分是已知的，不需要知道其他未采样的 kspace 真值，所以是无监督的训练。实际上，因为 pattern 部分不包括 ASC 的数据，而 sample 部分包括 ASC 的数据，所以和 GRAPPA 类似，还是用 ACS 的 pattern 模式的部分数据预测 ASC 的 full 数据。
+泛读。这篇文章研究的是并行 MRI 的重建。无监督的方法。无监督指的是在训练的损失函数上只考虑 sample 的部分。这篇文章用的网络目的是将未采样的 kspace 进行填补。所以类似于 GRAPPA 或者 RAKI。网络的输入是 pattern 部分的 kspace，输出是 full kspace，损失函数比较的是 sample 部分的误差。采样部分是已知的，不需要知道其他未采样的 kspace 真值，所以是无监督的训练。实际上，因为 pattern 部分不包括 ASC 的数据，而 sample 部分包括 ASC 的数据，所以和 GRAPPA 类似，还是用 ACS 的 pattern 模式的部分数据预测 ASC 的 full 数据。训练方式是从中心部分的 kspace，小范围逐渐变成大范围。
 
 首先说明一下作者定义的和采样位置有关的三个概念，sample，pattern，acs。sample 的部分包含 pattern 和 acs，pattern 是指欠采样的方式，acs 是中心的 full 采样的部分。
 
