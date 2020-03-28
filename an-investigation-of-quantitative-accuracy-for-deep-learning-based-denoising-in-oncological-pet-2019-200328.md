@@ -12,7 +12,7 @@ Wenzhuo Lu, John A Onofrey, Yihuan Lu, Luyao Shi, Tianyu Ma, Yaqiang Liu and Chi
 
 ### Notes:
 
-泛读。这篇文章研究的是 PET 的重建，不过作者还关注的是 lung nodule 这个生理上的图像显示效果。整体上说，这篇文章主要是实验性质。很多内容和实验有关。主要有三种网络，CAE，U-net，和 U-net 为生成网络的 GAN，基于 patch 的训练和去噪。方法归类上属于 CNN 投影后处理的类型。作者还比较了 2D U-net，2.5D U-net（输入是 3 slice），传统去噪算法，带 residual 结构的 U-net 等。最终得出的结果大概是 GAN/3D U-net 比较好。
+泛读。这篇文章研究的是 PET 的重建，不过作者还关注的是 lung nodule 这个生理上的图像显示效果。整体上说，这篇文章主要是实验性质。很多内容和实验有关。主要有三种网络，CAE，U-net，和 U-net 为生成网络的 GAN (LS-GAN)，基于 patch 的训练和去噪。方法归类上属于 CNN 投影后处理的类型。作者还比较了 2D U-net，2.5D U-net（输入是 3 slice），传统去噪算法，带 residual 结构的 U-net 等。最终得出的结果大概是 GAN/3D U-net 比较好。
 
 网络结构看图就可以了。
 
