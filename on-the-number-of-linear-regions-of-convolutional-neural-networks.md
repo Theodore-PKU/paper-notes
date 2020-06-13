@@ -87,7 +87,7 @@ $$
 
 2. 
 
-![屏幕快照 2020-06-12 上午9.18.18](/Users/xieyutong/Pictures/screenshot/屏幕快照 2020-06-12 上午9.18.18.png)
+![屏幕快照 2020-06-12 上午9.18.18](https://raw.githubusercontent.com/Theodore-PKU/pictures/master/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-06-12%20%E4%B8%8A%E5%8D%889.18.18.png)
 
 3. 
 
