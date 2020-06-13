@@ -18,9 +18,9 @@ Published in: Neural Networks
 }
 ```
 
-https://github.com/Theodore-PKU/paper-notes/blob/master/error-bounds-for-approximations-with-deep-relu-networks.md
+Link: https://github.com/Theodore-PKU/paper-notes/blob/master/error-bounds-for-approximations-with-deep-relu-networks.md
 
-/Users/xieyutong/Documents/Research/PaperReading/Notes/error-bounds-for-approximations-with-deep-relu-networks.md
+Note: Users/xieyutong/Documents/Research/PaperReading/Notes/error-bounds-for-approximations-with-deep-relu-networks.md
 
 
 
