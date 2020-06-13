@@ -15,7 +15,7 @@ Published in: Sampling Theory Appl
 }
 ```
 
-Link: https://github.com/Theodore-PKU/paper-notes/blob/master/notes-on-the-number-of-linear-regions-of-deep-neural-networks.md
+[Link](https://github.com/Theodore-PKU/paper-notes/blob/master/notes-on-the–number-of-linear-regions-of-deep-neural-networks.md)
 
 Note: /Users/xieyutong/Documents/Research/PaperReading/Notes/notes-on-the–number-of-linear-regions-of-deep-neural-networks.md
 
