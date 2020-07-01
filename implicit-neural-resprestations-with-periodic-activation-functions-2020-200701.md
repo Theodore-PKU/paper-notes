@@ -25,10 +25,12 @@ Note: /Users/xieyutong/Documents/Research/PaperReading/Notes/implicit-neural-res
 $$
 \text{find } \Phi(\mathbf{x}), \quad \text{subject to } \mathcal{C}_{m}(\mathbf{a}(\mathbf{x}), \Phi(\mathbf{x}), \nabla \Phi(\mathbf{x}), \ldots)=0, \forall \mathbf{x} \in \Omega_{m}, m=1, \ldots, M
 $$
+
 损失函数的构造：
 $$
 \mathcal{L}=\int_{\Omega} \sum_{m=1}^{M} \mathbf{1}_{\Omega_{m}}(\mathbf{x})\left\|\mathcal{C}_{m}(\mathbf{a}(\mathbf{x}), \Phi(\mathbf{x}), \nabla \Phi(\mathbf{x}), \ldots)\right\| d \mathbf{x}
 $$
+
 这篇文章主要的 idea 就是使用 MLP 表示这个泛函的时候（因为泛函本身是信号，所以无法使用更复杂的网络结构），激活函数采用 sine 激活函数，因此这个网络被称为 SIREN。
 
 作者认为 ReLU 的二阶导数为0，无法利用高阶的信息，而 sine 函数的高阶导数是 sine 的平移或 sine 本身，比其他高阶可导的激活函数性质更好。
