@@ -16,9 +16,9 @@ Published in: CVPR 2020
 }
 ```
 
-Link: https://github.com/Theodore-PKU/paper-notes/blob/master/dudornet-learning-a-dual-domain-recurrent-network-for-fast-mri-reconstruction-with-deep-t1-Prior-2020-200702.md
+Link: https://github.com/Theodore-PKU/paper-notes/blob/master/dudornet-learning-a-dual-domain-recurrent-network-for-fast-mri-reconstruction-with-deep-t1-prior-2020-200702.md
 
-Note: /Users/xieyutong/Documents/Research/PaperReading/Notes/dudornet-learning-a-dual-domain-recurrent-network-for-fast-mri-reconstruction-with-deep-t1-Prior-2020-200702.md
+Note: /Users/xieyutong/Documents/Research/PaperReading/Notes/dudornet-learning-a-dual-domain-recurrent-network-for-fast-mri-reconstruction-with-deep-t1-prior-2020-200702.md
 
 
 
