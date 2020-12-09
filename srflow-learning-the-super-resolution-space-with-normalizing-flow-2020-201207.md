@@ -1,16 +1,37 @@
 # SRFlow: Learning the Super-Resolution Space with Normalizing Flow
 
+[TOC]
+
+### 信息
+
 authors: Andreas Lugmayr, Martin Danelljan, Luc Van Gool, and Radu Timofte
 
 Computer Vision Laboratory, ETH Zurich
 
-[TOC]
+ECCV 2020
+
+```latex
+@inproceedings{lugmayr2020srflow,
+  title={Srflow: Learning the super-resolution space with normalizing flow},
+  author={Lugmayr, Andreas and Danelljan, Martin and Van Gool, Luc and Timofte, Radu},
+  booktitle={European Conference on Computer Vision},
+  pages={715--732},
+  year={2020},
+  organization={Springer}
+}
+```
+
+
 
 ### 概括
 
-在超分辨任务中，使用 normalizing flow 模型实现具有条件分布性质的超分辨结果。由于应用 normalizing flow 模型，损失函数只有一个。作者将该模型和机遇 GAN 的超分辨模型进行了比较。另外，将该模型应用于其他的一些视觉底层任务中。
+在超分辨任务中，使用 normalizing flow 模型实现具有条件分布性质的超分辨结果。由于应用 normalizing flow 模型，损失函数只有一个。作者将该模型和机遇 GAN 的超分辨模型进行了比较。另外，利用 normalization 技巧将该模型应用于其他的一些视觉底层任务（图像操纵、去噪）中。
 
-代码：git.io/SRFlow
+
+
+### 代码
+
+[code](https://git.io/SRFlow)
 
 
 
