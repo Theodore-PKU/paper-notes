@@ -21,7 +21,7 @@ ECCV 2020
 }
 ```
 
-
+[Paper](/Users/xieyutong/Documents/Research/PaperReading/Papers/srflow-learning-the-super-resolution-space-with-normalizing-flow.pdf)
 
 ### 概括
 
@@ -73,7 +73,7 @@ ECCV 2020
 $$
 p_{\boldsymbol{y}}(\boldsymbol{y}) = p_{\boldsymbol{z}}\left(f_{\boldsymbol{\theta} ; \mathbf{x}}(\boldsymbol{y})\right)\left|\operatorname{det} \frac{\partial f_{\boldsymbol{\theta}; \boldsymbol{x}}}{\partial \boldsymbol{y}}(\boldsymbol{y})\right|
 $$
-(1) 式成立的原因是概率密度的变量替换公式。如果随机变量 $u, v$ 满足 $g(u) = v, h(v) = u$，那么 $p_u(u) = p_v(g(u))|h'(u)|$. 对于多元随机变量，$|\cdot|$ 变成了行列式的绝对值。
+(1) 式成立的原因是概率密度的变量替换公式。如果随机变量 $u, v$ 满足 $g(u) = v, h(v) = u$，那么 $p_u(u) = p_v(g(u))|g'(u)|$. 对于多元随机变量，$|\cdot|$ 变成了行列式的绝对值。
 
 (1) 式成立也是显然的，两边对 $\boldsymbol{y}$ 积分：
 $$
