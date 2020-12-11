@@ -21,6 +21,8 @@ ICLR 2015
 
  [Paper](/Users/xieyutong/Documents/Research/PaperReading/Papers/nice-non-linear-independent-components-estimation.pdf)
 
+引用量 600+
+
 
 
 ### 概括
