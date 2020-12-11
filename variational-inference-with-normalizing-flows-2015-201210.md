@@ -19,7 +19,7 @@ ICML 2015
 }
 ```
 
-这篇文章引用数非常多。
+这篇文章引用数非常多。1000+
 
 [Paper](/Users/xieyutong/Documents/Research/PaperReading/Papers/variational-inference-with-normalizing-flows.pdf)
 
