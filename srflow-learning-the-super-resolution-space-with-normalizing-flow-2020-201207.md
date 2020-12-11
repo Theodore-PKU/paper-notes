@@ -23,6 +23,8 @@ ECCV 2020
 
 [Paper](/Users/xieyutong/Documents/Research/PaperReading/Papers/srflow-learning-the-super-resolution-space-with-normalizing-flow.pdf)
 
+
+
 ### 概括
 
 在超分辨任务中，使用 normalizing flow 模型实现具有条件分布性质的超分辨结果。由于应用 normalizing flow 模型，损失函数只有一个。作者将该模型和机遇 GAN 的超分辨模型进行了比较。另外，利用 normalization 技巧将该模型应用于其他的一些视觉底层任务（图像操纵、去噪）中。
