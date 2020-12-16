@@ -154,6 +154,8 @@ $$
 
 这个形式的目的是使其更像一个 LSTM 的形式（forget gate bias）。
 
+![屏幕快照 2020-12-16 下午8.49.24](/Users/xieyutong/Pictures/screenshot/屏幕快照 2020-12-16 下午8.49.24.png)
+
 #### 其他的细节
 
 自回归网络有一些特别的初始化，即 $\mathbf{s}_t$ 接近于 + 1 或 +2
