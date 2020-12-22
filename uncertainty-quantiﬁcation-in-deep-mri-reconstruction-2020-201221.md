@@ -126,7 +126,7 @@ $$
 \min _{D} \mathbb{E}_{x}\left[(1-\mathcal{D}(x))^{2}\right]+\mathbb{E}_{y}\left[(\mathcal{D}(\hat{x}))^{2}\right]
 \end{equation}
 $$
-判别器的网络也不是很复杂：8 层的 CNN，使用了 3x3 卷积，1x1 卷积和 ReLU，BN
+判别器的网络也不是很复杂：8 层的 CNN，使用了 3x3 卷积，1x1 卷积和 ReLU，BN。
 
 在 recurrent 结构中，DC 层是连接不同 VAE 的中间层。
 
