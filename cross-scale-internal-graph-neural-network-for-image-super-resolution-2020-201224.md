@@ -8,6 +8,8 @@ Authors: Shangchen Zhou, Jiawei Zhang, Wangmeng Zuo, and Chen Change Loy
 
 Nanyang Technological University, SenseTime Research and Harbin Institute of Technology
 
+NeurIPS 2020
+
 ```latex
 @article{zhou2020cross,
   title={Cross-scale internal graph neural network for image super-resolution},
