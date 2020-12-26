@@ -8,6 +8,8 @@ Authors: Brian L. Trippe and Richard E. Turner
 
 University of Cambridge and Massachusetts Institute of Technology
 
+arXiv 2018
+
 ```latex
 @article{trippe2018conditional,
   title={Conditional density estimation with bayesian normalising flows},
