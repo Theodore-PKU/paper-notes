@@ -8,6 +8,8 @@ Authors: Ivo Danihelka, Balaji Lakshminarayanan, Benigno Uria, Daan Wierstra, Pe
 
 DeepMind, UCL
 
+arXiv 2017
+
 ```
 @article{danihelka2017comparison,
   title={Comparison of maximum likelihood and gan-based training of real nvps},
