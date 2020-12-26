@@ -8,7 +8,7 @@ Authors: Vineet Edupuganti, Morteza Mardani, Shreyas Vasanawala, and John Pauly
 
 Stanford University
 
-IEEE Transactions on Medical Imaging
+IEEE Transactions on Medical Imaging 2020
 
 ```latex
 @article{edupuganti2020uncertainty,
