@@ -6,6 +6,8 @@
 
 ![屏幕快照 2020-12-25 下午4.19.45](/Users/xieyutong/Pictures/screenshot/屏幕快照 2020-12-25 下午4.19.45.png)
 
+arXiv 2020
+
 [Paper](/Users/xieyutong/Documents/Research/PaperReading/Papers/a-survey-on-visual-transformer.pdf)
 
 
