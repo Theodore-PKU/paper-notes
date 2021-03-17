@@ -21,6 +21,8 @@ Bibtex:
 
 [Paper](file:///Users/xieyutong/Documents/Research/PaperReading/Papers/conditional-generative-modeling-via-learning-the-latent-space.pdf)
 
+cite: 1
+
 
 
 ## 概括
