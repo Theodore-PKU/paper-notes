@@ -23,7 +23,7 @@ Bibtex:
 
 [Paper](file:///Users/xieyutong/Documents/Research/PaperReading/Papers/self-attention-generative-adversarial-networks.pdf)
 
-
+cite: 1433
 
 ## Code
 
