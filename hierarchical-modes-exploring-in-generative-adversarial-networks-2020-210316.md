@@ -4,7 +4,7 @@
 
 ## 信息
 
-Authors:
+Authors: Mengxiao Hu, Jinlong Li, Maolin Hu and Tao Hu
 
 Year: AAAI 2020
 
