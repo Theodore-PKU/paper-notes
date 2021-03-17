@@ -22,6 +22,8 @@ Bibtex:
 
 [Paper](file:///Users/xieyutong/Documents/Research/PaperReading/Papers/msg-gan-multi-scale-gradients-for-generative-adversarial-networks.pdf)
 
+cite: 24
+
 
 
 ## Code
