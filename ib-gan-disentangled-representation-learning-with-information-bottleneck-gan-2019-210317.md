@@ -8,7 +8,7 @@ Authors: I Jeon, W Lee, G Kim
 
 Year: ICLR 2019
 
-Bibtex: 
+Bibtex:  
 
 ```
 @article{jeon2018ib,
