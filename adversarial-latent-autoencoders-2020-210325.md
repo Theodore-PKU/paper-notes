@@ -22,6 +22,8 @@ Bibtex:
 
 [Paper](file:///Users/xieyutong/Documents/Research/PaperReading/Papers/adversarial-latent-autoencoders.pdf)
 
+cite: 26
+
 
 
 ## code
