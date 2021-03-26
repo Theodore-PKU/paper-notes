@@ -162,3 +162,23 @@ flow 模型这样的发展是合理的嘛？虽然模型的可逆性限制和 Ja
 
 ## 参考文献
 
+Invertible residual networks. In International Conference on Machine Learning, pp. 573–582, 2019.
+
+Vﬂow: More expressive generative ﬂows with variational data augmentation. In International Conference on Machine Learning, 2020.
+
+Residual ﬂows for invertible generative modeling. In Advances in Neural Information Processing Systems, pp. 9916–9926, 2019.
+
+Block neural autoregressive ﬂow. In Uncertainty in Artiﬁcial Intelligence, pp. 1263–1273. PMLR, 2020.
+
+Neural spline ﬂows. In Advances in Neural Information Processing Systems, pp. 7511–7522, 2019.
+
+Ffjord:
+
+Free-form continuous dynamics for scalable reversible generative models. In International Conference on Learning Representations, 2019.
+
+Survae ﬂows: Surjections to bridge the gap between vaes and ﬂows. arXiv preprint arXiv:2007.02731, 2020.
+
+Mintnet: Building invertible neural networks with masked convolutions. In Advances in Neural Information Processing Systems, pp. 11002–11012, 2019.
+
+Approximation capabilities of neural odes and invertible residual networks. In International Conference on Machine Learning, 2020.
+
