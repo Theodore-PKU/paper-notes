@@ -20,6 +20,8 @@ Bibtex:
 }
 ```
 
+[Paper](file:///Users/xieyutong/Documents/Research/PaperReading/Papers/softflow-probabilistic-framework-for-normalizing-flow-on-manifolds.pdf)
+
 cite: 1
 
 
