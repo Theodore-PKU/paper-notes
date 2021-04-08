@@ -119,7 +119,7 @@ $$
 
 **第三个改进：卷积层**
 
-之前的网络，只使用了卷积层，作者在这篇文章考虑使用 self-attention。具体的结构如下：
+之前的参数网络，只使用了卷积层，作者在这篇文章考虑使用 self-attention。具体的结构如下：
 
 <img src="/Users/xieyutong/Pictures/screenshot/屏幕快照 2021-03-30 上午11.15.31.png" alt="屏幕快照 2021-03-30 上午11.15.31" style="zoom:50%;" />
 
