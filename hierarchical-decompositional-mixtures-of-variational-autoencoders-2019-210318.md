@@ -23,6 +23,8 @@ Bibtex:
 
 cite: 5
 
+[Paper](/Users/xieyutong/Documents/Research/PaperReading/Papers/hierarchical-decompositional-mixtures-of-variational-autoencoders.pdf)
+
 
 
 ## 概括
