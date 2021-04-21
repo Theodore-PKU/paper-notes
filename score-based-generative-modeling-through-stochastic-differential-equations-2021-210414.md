@@ -322,3 +322,6 @@ Yang Song and Stefano Ermon. Improved techniques for training score-based genera
 Yang Song, Sahaj Garg, Jiaxin Shi, and Stefano Ermon. Sliced score matching: A scalable approach to density and score estimation. In Proceedings of the Thirty-Fifth Conference on Uncertainty in Artiﬁcial Intelligence, UAI 2019, Tel Aviv, Israel, July 22-25, 2019, pp. 204, 2019a.
 
 Tianyu Pang, Kun Xu, Chongxuan Li, Yang Song, Stefano Ermon, and Jun Zhu. Efﬁcient learning of generative models via ﬁnite-difference score matching. arXiv preprint arXiv:2007.03317, 2020.
+
+Ricky TQ Chen, Yulia Rubanova, Jesse Bettencourt, and David K Duvenaud. Neural ordinary differential equations. In Advances in neural information processing systems, pp. 6571–6583, 2018.
+
