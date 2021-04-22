@@ -201,7 +201,7 @@ $$
 $$
 \log p_{0}(\mathbf{x}(0))=\log p_{T}(\mathbf{x}(T))+\int_{0}^{T} \nabla \cdot \tilde{\mathbf{f}}_{\boldsymbol{\theta}}(\mathbf{x}(t), t) \mathrm{d} t
 $$
-但这个式子中  $ \nabla \cdot \tilde{\mathbf{f}}_{\boldsymbol{\theta}}(\mathbf{x}(t), t) $ 是不好算的。$\tilde{f}$ 是 (18) 式 dt 前面的整个部分。所以采用了一种近似的方法 Skilling-Hutchinson trace estimator：
+但这个式子中  $ \nabla \cdot \tilde{\mathbf{f}}_{\boldsymbol{\theta}}(\mathbf{x}(t), t) $ 是不好算的（这个就是散度，即 $\mathrm{tr}(\frac{d f}{d x(t)})$，和神经常微分方程论文中的做法是一样的）。$\tilde{f}$ 是 (18) 式 dt 前面的整个部分。所以采用了一种近似的方法 Skilling-Hutchinson trace estimator：
 $$
 \nabla \cdot \tilde{\mathbf{f}}_{\boldsymbol{\theta}}(\mathbf{x}, t)=\mathbb{E}_{p(\boldsymbol{\epsilon})}\left[\boldsymbol{\epsilon}^{\top} \nabla \tilde{\mathbf{f}}_{\boldsymbol{\theta}}(\mathbf{x}, t) \boldsymbol{\epsilon}\right]
 $$
