@@ -8,7 +8,19 @@ Author: Yang Song, Conor Durkan, Iain Murray, Stefano Ermon
 
 Year: arXiv 2021
 
+[Paper](file:///Users/xieyutong/Documents/Research/PaperReading/Papers/maximum-likelihood-training-of-score-based-diffusion-models.pdf)
 
+Bibtex:
+
+```latex
+@article{song2021maximum,
+  title={Maximum Likelihood Training of Score-Based Diffusion Models},
+  author={Song, Yang and Durkan, Conor and Murray, Iain and Ermon, Stefano},
+  journal={arXiv e-prints},
+  pages={arXiv--2101},
+  year={2021}
+}
+```
 
 
 
