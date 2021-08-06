@@ -21,6 +21,8 @@ Bibtex:
 
 [Paper](file:///Users/xieyutong/Documents/Research/PaperReading/Papers/denoising-diffusion-probabilistic-models.pdf)
 
+code: https://github.com/hojonathanho/diffusion
+
 
 
 ## 概括
