@@ -114,7 +114,7 @@ Alexander Eﬄand, Erich Kobler, Karl Kunisch, and Thomas Pock. Variational netw
 
 Erich Kobler, Alexander Eﬄand, Karl Kunisch, and Thomas Pock. Total deep variation for linear inverse problems. In CVPR, 2020.
 
-这三篇文章是作者认为将深度学习和变分方法结婚的工作。regularizer is learned from data.
+这三篇文章是作者认为将深度学习和变分方法结合的工作。regularizer is learned from data.
 
 Erich Kobler, Alexander Eﬄand, Karl Kunisch, and Thomas Pock. Total deep variation: A stable regularizer for inverse problems. arXiv, 2020.
 
