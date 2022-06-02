@@ -1,4 +1,4 @@
-# Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction
+Come-Closer-Diffuse-Faster: Accelerating Conditional Diffusion Models for Inverse Problems through Stochastic Contraction
 
 [TOC]
 
@@ -30,8 +30,6 @@ Bibtex：
 
 
 ## 方法
-
-用了什么方法解决问题。
 
 加速采样的基本想法是：从一个不太准确的初始值开始，先进行一个 diffusion 的过程，然后从这个时刻（小于完整的 unconditional 采样的 T）开始进行 reverse process 生成。这个生成过程和原本的 sampling + DC 一样。初始值可以是 corrupted image，也可以是用一个神经网络得到的初始值。作者认为初始值越接近 true data，那么效果越好，reverse process 开始的时刻更小（也就是迭代的步数更少）。这个想法和 SDEdit 非常接近，但是考虑的问题有一些差异。这篇文章是从加速采样的角度出发，SDEdit 则是从图像转换的角度出发。另外，SDEdit 中，reverse process 的初始时刻相对来说更大，这是和对应的任务有关的，而在这篇文章中，初始时刻可以非常小。
 
@@ -185,8 +183,6 @@ $$
 
 ## 实验
 
-关于实验的内容和结果。
-
 作者的实验分为三个部分：超分辨、inpainting 和 MRI 重建。除了 MRI 重建，其他两个任务都用 FID 来评价。MRI 是 PSNR。从实验结果来看，我认为是没有问题的，效果很不错，确实提高了 sampling 效率。
 
 首先，如果没有特殊说明，都是使用神经网络得到的初始值进行加速采样。
@@ -227,17 +223,3 @@ Hiroshi Sasaki, Chris G Willcocks, and Toby P Breckon. UNIT-DDPM: Unpaired image
 Daniel Watson, Jonathan Ho, Mohammad Norouzi, and William Chan. Learning to efﬁciently sample from diffusion probabilistic models. arXiv preprint arXiv:2106.03802, 2021. 2
 
 Eric Luhman and Troy Luhman. Knowledge distillation in iterative generative models for improved sampling speed. arXiv preprint arXiv:2101.02388, 2021. 2
-
-
-
-## 其他事项
-
-come-closer-diffuse-faster-accelerating-conditional-diffusion-models-for inverse-problems-through-stochastic-contraction-220602.md
-
-- [ ] source git_note.sh [a/m/n/d] filename <new_filename>
-- [ ] source git_note.sh a come-closer-diffuse-faster-accelerating-conditional-diffusion-models-for-inverse-problems-through-stochastic-contraction-220602.md
-- [ ] /Users/xieyutong/Documents/Research/PaperReading/Notes/come-closer-diffuse-faster-accelerating-conditional-diffusion-models-for-inverse-problems-through-stochastic-contraction-220602.md
-- [ ] https://github.com/Theodore-PKU/paper-notes/blob/master/come-closer-diffuse-faster-accelerating-conditional-diffusion-models-for-inverse-problems-through-stochastic-contraction-220602.md
-- [ ] 将论文添加到 Mendeley 中，修改 detail 信息（特别是 Tags），将笔记中概括的内容复制到 note 部分。 detail 中在 URL 部分增加笔记链接
-- [ ] file:///Users/xieyutong/Documents/Research/PaperReading/Notes/come-closer-diffuse-faster-accelerating-conditional-diffusion-models-for-inverse-problems-through-stochastic-contraction-220602.md
-- [ ] 放入 Mendeley 中正确的文件夹
